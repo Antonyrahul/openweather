@@ -39,7 +39,7 @@ var contries = fetch("https://restcountries.eu/rest/v2/all")
 	
 			var country = sub_val;
 			
-			fullurl = "http://api.openweathermap.org/data/2.5/weather?q="+country+"&units=metric&appid="+apikey;
+			fullurl = "https://api.openweathermap.org/data/2.5/weather?q="+country+"&units=metric&appid="+apikey;
 			//https://cors-anywhere.herokuapp.com/
 			console.log(fullurl);
 			fetch(fullurl)
